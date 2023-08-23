@@ -1,0 +1,42 @@
+.hero {
+	display: grid;
+	grid-template-rows: repeat(2, auto);
+	gap: 3rem;
+}
+
+.hero-img {
+	width: 110%;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-inline: 1.4rem;
+}
+
+.title {
+	width: 75%;
+	font-size: var(--fs-title);
+	color: var(--clr-secondary-100);
+	text-align: center;
+	font-weight: 800;
+}
+
+.title span {
+	color: var(--clr-primary-100);
+}
+
+.paragraph {
+	font-size: 0.938rem;
+	text-align: center;
+	margin-block-start: 1.438rem;
+	margin-block-end: 2rem;
+}
+
+@media screen and (min-width: 48rem) {
+	.hero-img {
+		display: none;
+	}
+}

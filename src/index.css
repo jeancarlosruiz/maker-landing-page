@@ -6,6 +6,21 @@
 	padding: 0;
 }
 
+svg,
+img,
+picture {
+	/* max-width: 100%; */
+}
+
+.visually-hidden {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
 :root {
 	/* Primary */
 	--clr-primary-100: #3ee9e5;
@@ -27,4 +42,13 @@ body {
 	background-color: var(--clr-secondary-600);
 	color: var(--clr-secondary-300);
 	font-weight: 400;
+}
+
+.main {
+	margin-block-start: 4.188rem;
+	overflow-x: hidden;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	gap: 9rem;
 }

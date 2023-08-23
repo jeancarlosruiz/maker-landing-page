@@ -1,0 +1,36 @@
+.benefits {
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.img {
+	/* object-fit: fi; */
+	/* aspect-ratio: 2/2; */
+}
+
+.wrapper {
+	width: 7.5rem;
+	height: 7.75rem;
+	background-color: var(--clr-primary-600);
+	border-radius: 2.813rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.subtitle {
+	font-size: var(--fs-subtitle);
+	color: var(--clr-secondary-100);
+	text-align: center;
+}
+
+.paragraph {
+	font-size: 0.938rem;
+	text-align: center;
+	margin-block-start: 0.688rem;
+	text-align: center;
+}

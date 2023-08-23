@@ -1,8 +1,9 @@
 // import React from 'react';
+import style from './Header.module.css'
 
 function Header() {
 	return (
-		<header>
+		<header className={style.header}>
 			<div className="wrapper">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
