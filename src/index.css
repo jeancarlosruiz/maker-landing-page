@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Primary */
+  --clr-primary-100: #3ee9e5;
+  --clr-primary-300: #ff2965;
+  --clr-primary-600: #093f68;
+
+  /* Secondary */
+  --clr-secondary-100: #ffffff;
+  --clr-secondary-300: #777f98;
+  --clr-secondary-600: #080c20;
+
+  /* Fonts */
+  --fs-title: clamp(2rem, 1.3478rem + 2.7826vw, 3rem);
+  --fs-subtitle: font-size: clamp(1.5rem, 1.1739rem + 1.3913vw, 2rem);
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: var(--clr-secondary-600);
+  color: var(--clr-secondary-300);
+  font-weight: 400;
+}
