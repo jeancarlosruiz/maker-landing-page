@@ -30,7 +30,8 @@
 
 .premium {
 	background-color: var(--clr-primary-100);
-	color: var(--clr-secondary-600);
+	/* color: var(--clr-secondary-600); */
+	color: black;
 }
 
 .premium .price {
