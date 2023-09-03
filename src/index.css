@@ -35,6 +35,26 @@ svg {
 	--fs-subtitle: clamp(1.5rem, -0.6099rem + 4.3956vw, 2rem);
 }
 
+@font-face {
+	font-family: 'Manrope';
+	src:
+		url('./assets/Fonts/Manrope-Medium.woff2') format('woff2'),
+		url('./assets/Fonts/Manrope-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Manrope';
+	src:
+		url('./assets/Fonts/Manrope-ExtraBold.woff2') format('woff2'),
+		url('./assets/Fonts/Manrope-ExtraBold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
 .visually-hidden {
 	position: absolute;
 	left: -10000px;
