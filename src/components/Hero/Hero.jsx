@@ -4,7 +4,7 @@ import heroImg from '../../assets/illustration-hero-mobile.png'
 function Hero() {
 	return (
 		<section className={style.hero}>
-			<img className={style['hero-img']} src={heroImg} alt="hero image" />
+			<img width={413} height={230} className={style['hero-img']} src={heroImg} alt="hero image" />
 			<div className={style['full-bleed']}>
 				<div className={style.left}></div>
 				<div className={style.wrapper}>

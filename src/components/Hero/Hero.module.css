@@ -6,7 +6,11 @@
 }
 
 .hero-img {
+	/*--Fix img render--*/
 	width: 110%;
+	max-width: 25.563rem;
+	/* --------------- */
+	margin-inline: auto;
 }
 
 .wrapper {
