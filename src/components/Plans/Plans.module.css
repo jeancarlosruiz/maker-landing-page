@@ -1,0 +1,117 @@
+.plans {
+	display: grid;
+	gap: 4.938rem;
+	margin-inline: auto;
+}
+
+.card {
+	padding-block-start: 3.063rem;
+	padding-block-end: 2rem;
+	padding-inline: 1.875rem;
+	position: relative;
+	border-radius: 0.5rem;
+	width: min(100%, 27.813rem);
+}
+
+.image {
+	position: absolute;
+	top: 0;
+	transform: translateY(-50%);
+}
+
+.free {
+	background-color: var(--clr-primary-600);
+	color: var(--clr-secondary-100);
+}
+
+.free svg path {
+	fill: var(--clr-primary-100);
+}
+
+.premium {
+	background-color: var(--clr-primary-100);
+	color: var(--clr-secondary-600);
+}
+
+.premium .price {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.469rem;
+}
+
+.premium .price::after {
+	content: '/ month';
+	font-size: 0.938rem;
+	font-weight: 500;
+	opacity: 0.6;
+}
+
+.sub-title {
+	font-size: var(--fs-subtitle);
+	color: var(--clr-secondary-100);
+	text-align: center;
+	padding-block-end: 1.688rem;
+}
+
+.paragraph {
+	text-align: center;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4.063rem;
+}
+
+.title {
+	font-size: 1.125rem;
+	margin-bottom: 1.188rem;
+	font-weight: 800;
+}
+
+.description {
+	opacity: 0.5973;
+	margin-block-end: 1.625rem;
+}
+
+.benefits {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+}
+
+.benefit {
+	display: flex;
+	gap: 0.958rem;
+	align-items: center;
+}
+
+.price {
+	display: block;
+	font-size: 2.5rem;
+	font-weight: 800;
+	margin-block-end: 1.188rem;
+}
+
+@media (min-width: 48em) {
+	.plans {
+		width: 35.813rem;
+	}
+}
+
+@media (min-width: 59.375em) {
+	.plans {
+		width: 100%;
+	}
+
+	.paragraph {
+		width: 33.75rem;
+		margin-inline: auto;
+	}
+
+	.wrapper {
+		flex-direction: row;
+		justify-content: center;
+	}
+}

@@ -1,6 +1,19 @@
 .header {
-	margin-block-start: 2.5rem;
+	padding-block-start: 2.5rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+@media (min-width: 48em) {
+	.header {
+		padding-block-start: 3rem;
+		justify-content: flex-start;
+	}
+}
+
+@media (min-width: 59.375em) {
+	.header {
+		padding-block-start: 5.063rem;
+	}
 }
